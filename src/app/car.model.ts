@@ -10,6 +10,14 @@ export class Car {
   }
 }
 
+export interface Car {
+  name: string;
+  date: string;
+  model: string;
+  isSold: boolean;
+  id?: number;
+}
+
 export class Cars {
   cars: Car[];
 }

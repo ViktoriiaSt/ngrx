@@ -10,11 +10,13 @@
   <button
     type="button"
     class="btn btn-danger btn-small"
+    (click)="onDelete()"
     >Delete Car
   </button>
   <button
     type="button"
     class="btn btn-success btn-small"
+    (click)="onBuy()"
     [disabled]="car.isSold">Buy Car
   </button>
 </div>
